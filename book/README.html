@@ -1,0 +1,350 @@
+<!DOCTYPE HTML>
+<html lang="en-US" manifest="../manifest.appcache">
+    <head prefix="og: http://ogp.me/ns# book: http://ogp.me/ns/book#">
+        
+        <meta charset="UTF-8">
+        <title>图书项目结构 | Gitbook 使用入门</title>
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="wwq0327">
+        <meta name="description" content="GitBook 是一个基于 Node.js 的命令行工具，可使用 Github/Git 和 Markdown 来制作精美的电子书。">
+        <meta name="keywords" content="gitbook,github" >
+        <meta name="generator" content="www.gitbook.io">
+
+        
+        <link rel="next" href="../book/file.html" />
+        
+        
+        <link rel="prev" href="../howtouse/gitbookcli.html" />
+        
+
+        <meta property="og:title" content="图书项目结构 | Gitbook 使用入门">
+        <meta property="og:site_name" content="Gitbook 使用入门">
+        <meta property="og:type" content="book">
+        <meta property="og:locale" content="en_US">
+
+        <meta property="book:author" content="https://github.com/wwq0327">
+        <meta property="book:tag" content="GitBook">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+        <link rel="shortcut icon" href="../gitbook/images/favicon.ico" type="image/x-icon">
+        
+    </head>
+    <body>
+        
+
+        <link rel="stylesheet" href="../gitbook/style.css">
+        
+
+
+        
+    <div class="book" data-github="wwq0327/gitbook-zh" data-level="2" data-basepath=".." data-revision="1400304952199">
+    <div class="book-header">
+    <!-- Actions Left -->
+    
+    <a href="https://github.com/wwq0327/gitbook-zh" target="_blank" class="btn pull-left"><i class="fa fa-bookmark-o"></i></a>
+    
+    <a href="#" class="btn pull-left toggle-summary"><i class="fa fa-align-justify"></i></a>
+    <a href="#" class="btn pull-left toggle-search"><i class="fa fa-search"></i></a>
+    <span id="font-settings-wrapper">
+        <a href="#" class="btn pull-left toggle-font-settings"><i class="fa fa-font"></i>
+        </a>
+        <div class="dropdown-menu font-settings">
+	<div class="dropdown-caret">
+  <span class="caret-outer"></span>
+  <span class="caret-inner"></span>
+</div>
+
+	<div class="btn-group btn-block">
+		<button id="reduce-font-size" class="btn btn-default">A</button>
+		<button id="enlarge-font-size" class="btn btn-default">A</button>
+	</div>
+
+	<ul class="list-group font-family-list">
+		<li class="list-group-item" data-font="0">Serif</li>
+		<li class="list-group-item" data-font="1">Sans</li>
+	</ul>
+
+	<div class="btn-group btn-group-xs btn-block color-theme-list">
+	  <button type="button" class="btn btn-default" id="color-theme-preview-0" data-theme="0">White</button>
+	  <button type="button" class="btn btn-default" id="color-theme-preview-1" data-theme="1">Sepia</button>
+	  <button type="button" class="btn btn-default" id="color-theme-preview-2" data-theme="2">Night</button>
+	</div>
+</div>
+
+    </span>
+
+    <!-- Actions Right -->
+    
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="google-plus"><i class="fa fa-google-plus"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="facebook"><i class="fa fa-facebook"></i></a>
+    
+    
+    <a href="#" target="_blank" class="btn pull-right" data-sharing="twitter"><i class="fa fa-twitter"></i></a>
+    
+
+    
+    <a href="https://github.com/wwq0327/gitbook-zh/stargazers" target="_blank" class="btn pull-right count-star hidden-xs"><i class="fa fa-star-o"></i> Star (<span>-</span>)</a>
+    <a href="https://github.com/wwq0327/gitbook-zh/watchers" target="_blank" class="btn pull-right count-watch hidden-xs"><i class="fa fa-eye"></i> Watch (<span>-</span>)</a>
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-spinner fa-spin"></i>
+        <a href="../" >Gitbook 使用入门</a>
+    </h1>
+</div>
+
+    <div class="book-summary">
+    <div class="book-search">
+        <input type="text" placeholder="Search" class="form-control" />
+    </div>
+    <ul class="summary">
+        
+        <li>
+            <a href="https://github.com/wwq0327" target="blank">About the author</a>
+        </li>
+        
+
+        
+        <li>
+            <a href="https://github.com/wwq0327/gitbook-zh/issues" target="blank">Questions and Issues</a>
+        </li>
+        
+
+        
+        <li>
+            <a href="https://github.com/wwq0327/gitbook-zh/edit/master/book/README.md" target="blank">Edit and Contribute</a>
+        </li>
+        
+
+        
+        <li class="divider"></li>
+        
+
+        <li data-level="0" data-path="index.html">
+            <a href="../"><i class="fa fa-check"></i> Introduction</a>
+        </li>
+        
+            <li  data-level="1" data-path="howtouse/README.html">
+                
+                <a href="../howtouse/README.html">
+                    <i class="fa fa-check"></i> <b>1.</b> 如何使用
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="1.1" data-path="howtouse/Nodejsinstall.html">
+                            
+                            <a href="../howtouse/Nodejsinstall.html">
+                                <i class="fa fa-check"></i> <b>1.1.</b> Node.js安装
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.2" data-path="howtouse/gitbookinstall.html">
+                            
+                            <a href="../howtouse/gitbookinstall.html">
+                                <i class="fa fa-check"></i> <b>1.2.</b> gitbook安装
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="1.3" data-path="howtouse/gitbookcli.html">
+                            
+                            <a href="../howtouse/gitbookcli.html">
+                                <i class="fa fa-check"></i> <b>1.3.</b> gitbook命令行速览
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="2" data-path="book/README.html">
+                
+                <a href="../book/README.html">
+                    <i class="fa fa-check"></i> <b>2.</b> 图书项目结构
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="2.1" data-path="book/file.html">
+                            
+                            <a href="../book/file.html">
+                                <i class="fa fa-check"></i> <b>2.1.</b> README.md 与 SUMMARY编写
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="2.2" data-path="book/prjinit.html">
+                            
+                            <a href="../book/prjinit.html">
+                                <i class="fa fa-check"></i> <b>2.2.</b> 目录初始化
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="3" data-path="output/README.html">
+                
+                <a href="../output/README.html">
+                    <i class="fa fa-check"></i> <b>3.</b> 图书输出
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="3.1" data-path="output/outfile.html">
+                            
+                            <a href="../output/outfile.html">
+                                <i class="fa fa-check"></i> <b>3.1.</b> 输出为静态网站
+                            </a>
+                            
+                        </li>
+                    
+                        <li  data-level="3.2" data-path="output/pdfandebook.html">
+                            
+                            <a href="../output/pdfandebook.html">
+                                <i class="fa fa-check"></i> <b>3.2.</b> 输出PDF/eBook
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+            <li  data-level="4" data-path="publish/README.html">
+                
+                <a href="../publish/README.html">
+                    <i class="fa fa-check"></i> <b>4.</b> 发布
+                </a>
+                
+                
+                <ul class="articles">
+                    
+                        <li  data-level="4.1" data-path="publish/gitpages.html">
+                            
+                            <a href="../publish/gitpages.html">
+                                <i class="fa fa-check"></i> <b>4.1.</b> 发布到git pages
+                            </a>
+                            
+                        </li>
+                    
+                </ul>
+                
+            </li>
+        
+
+        
+        <li class="divider"></li>
+        <li>
+            <a href="http://www.gitbook.io/" target="blank">Generated using GitBook</a>
+        </li>
+        
+    </ul>
+</div>
+
+    <div class="book-body">
+        <div class="body-inner">
+            <div class="page-wrapper" tabindex="-1">
+                <div class="book-progress">
+    <div class="bar">
+        <div class="inner" style="width: 41.666666666666664%;min-width: 33.333333333333336%;"></div>
+    </div>
+    <div class="chapters">
+    
+        <a href="../index.html" title="Introduction" class="chapter done new-chapter" data-progress="0" style="left: 0%;"></a>
+    
+        <a href="../howtouse/README.html" title="如何使用" class="chapter done new-chapter" data-progress="1" style="left: 8.333333333333334%;"></a>
+    
+        <a href="../howtouse/Nodejsinstall.html" title="Node.js安装" class="chapter done " data-progress="1.1" style="left: 16.666666666666668%;"></a>
+    
+        <a href="../howtouse/gitbookinstall.html" title="gitbook安装" class="chapter done " data-progress="1.2" style="left: 25%;"></a>
+    
+        <a href="../howtouse/gitbookcli.html" title="gitbook命令行速览" class="chapter done " data-progress="1.3" style="left: 33.333333333333336%;"></a>
+    
+        <a href="../book/README.html" title="图书项目结构" class="chapter done new-chapter" data-progress="2" style="left: 41.666666666666664%;"></a>
+    
+        <a href="../book/file.html" title="README.md 与 SUMMARY编写" class="chapter  " data-progress="2.1" style="left: 50%;"></a>
+    
+        <a href="../book/prjinit.html" title="目录初始化" class="chapter  " data-progress="2.2" style="left: 58.333333333333336%;"></a>
+    
+        <a href="../output/README.html" title="图书输出" class="chapter  new-chapter" data-progress="3" style="left: 66.66666666666667%;"></a>
+    
+        <a href="../output/outfile.html" title="输出为静态网站" class="chapter  " data-progress="3.1" style="left: 75%;"></a>
+    
+        <a href="../output/pdfandebook.html" title="输出PDF/eBook" class="chapter  " data-progress="3.2" style="left: 83.33333333333333%;"></a>
+    
+        <a href="../publish/README.html" title="发布" class="chapter  new-chapter" data-progress="4" style="left: 91.66666666666667%;"></a>
+    
+        <a href="../publish/gitpages.html" title="发布到git pages" class="chapter  " data-progress="4.1" style="left: 100%;"></a>
+    
+    </div>
+</div>
+
+                <div class="page-inner">
+                
+                    <section class="normal" id="section-gitbook_2">
+                    
+                        <h1 id="-">图书项目结构</h1>
+<p><code>README.md</code>和<code>SUMMARY.md</code>是gitbook项目必备的两个文件，也就是一本最简单的gitbook也必须含有这两个文件，它们在一本gitbook中具有不同的用处。</p>
+
+                    
+                    </section>
+                
+                </div>
+            </div>
+        </div>
+
+        
+        <a href="../howtouse/gitbookcli.html" class="navigation navigation-prev "><i class="fa fa-angle-left"></i></a>
+        
+        
+        <a href="../book/file.html" class="navigation navigation-next "><i class="fa fa-angle-right"></i></a>
+        
+    </div>
+</div>
+
+        
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/ace.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.1.3/mode-javascript.js"></script>
+        <script src="../gitbook/jsrepl/jsrepl.js" id="jsrepl-script"></script>
+        <script src="../gitbook/app.js"></script>
+        
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mixpanel/plugin.js"></script>
+    
+
+    
+    <script src="http://cdn.mathjax.org/mathjax/2.0-latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+
+    
+    <script src="../gitbook/plugins/gitbook-plugin-mathjax/plugin.js"></script>
+    
+
+<script>
+require(["gitbook"], function(gitbook) {
+    var config = {};
+    gitbook.start(config);
+});
+</script>
+
+    </body>
+</html>
